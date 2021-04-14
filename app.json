@@ -1,0 +1,11 @@
+{
+    "name": "nginx reverse proxy",
+    "description": "A simple nginx reverse proxy",
+    "repository": "https://github.com/easella/nginx-deploy-example",
+    "logo": "https://raw.githubusercontent.com/binary-person/womginx/master/public/logo.png",
+    "keywords": [
+        "nginx",
+        "docker"
+    ],
+    "stack": "container"
+}
