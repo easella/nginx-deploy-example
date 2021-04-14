@@ -2,10 +2,6 @@ require("dotenv").config();
 
 const express = require("express");
 
-const Redis = require("ioredis");
-
-
-const redis = new Redis(process.env.REDIS_URL);
 const app = express();
 var proxy=require("express-http-proxy")
 app.use(proxy("https://games.awdrgyjil1234.repl.co"))
